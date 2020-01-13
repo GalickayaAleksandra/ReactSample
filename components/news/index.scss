@@ -1,0 +1,88 @@
+.news {
+  background: #ebe7df;
+  padding: 28px 0;
+  height: 234px;
+  @media (max-width: 320px) {
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 321px) and (max-width: 360px) {
+    height: auto;
+  }
+  @media (min-width: 361px) and (max-width: 414px) {
+    height: auto;
+  }
+  @media (min-width: 415px) and (max-width: 575px) {
+    height: auto;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    height: auto;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    height: auto;
+  }
+  @media (max-width: 1199px) {
+    height: auto;
+  }
+
+  .author {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #494847;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .blog {
+    font-family: "Montserrat";
+    .blog-part1,
+    .blog-part2 {
+      display: flex;
+      flex-direction: row;
+      padding: 5px 0;
+
+      button {
+        border: none;
+        background: #57c5a0;
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        height: 58px;
+        width: 79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .part1 {
+        color: #242424;
+        font-size: 14px;
+      }
+      .part2 {
+        font-size: 12px;
+      }
+
+      .developments {
+        margin-left: 14px;
+      }
+    }
+  }
+  .testimonials {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #494847;
+  }
+  .shipping {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .inf-shipping {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #494847;
+  }
+}

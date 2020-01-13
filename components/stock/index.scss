@@ -1,0 +1,139 @@
+.stock {
+  background: #ebe7df;
+  padding: 40px 0;
+  @media (max-width: 320px) {
+    width: 100%;
+  }
+}
+
+.stock-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  .inf-product {
+    color: #242424;
+    font-family: "Montserrat";
+    font-size: 25px;
+    @media (max-width: 320px) {
+      font-size: 18px;
+    }
+    @media (min-width: 321px) and (max-width: 360px) {
+      font-size: 21px;
+    }
+  }
+  button {
+    border: 2px solid #bcb5a7;
+    background: #ebe7df;
+    color: #bcb5a7;
+    font-family: "Montserrat";
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+  }
+}
+.part-1,
+.part-2,
+.part-3,
+.part-4,
+.part-5,
+.part-6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  .img {
+    display: inline-block;
+    position: relative;
+    @media (max-width: 320px) {
+      width: auto;
+      height: auto;
+    }
+    img {
+      @media (max-width: 320px) {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.stock-button {
+  border: none;
+  background: #57c5a0;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  height: 68px;
+  width: 68px;
+  position: absolute;
+  bottom: 0;
+  left: 11px;
+}
+.stock-button-top {
+  position: absolute;
+  border: none;
+  background: #242424;
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  height: 68px;
+  width: 68px;
+  top: 0;
+  right: 11px;
+  @media (max-width: 320px) {
+    right: 11px;
+  }
+  @media (min-width: 321px) and (max-width: 360px) {
+  }
+}
+.stock-button-top1 {
+  position: absolute;
+  border: none;
+  background: #f27e4b;
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  height: 68px;
+  width: 68px;
+  top: 0;
+  right: 11px;
+  @media (max-width: 320px) {
+    right: 11px;
+  }
+}
+.name-block {
+  width: 300px;
+  height: 47px;
+  background: #fff;
+  font-family: "Montserrat";
+  color: #242424;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+.name1 {
+  padding: 0 28px;
+  height: 40px;
+  background: #fff;
+  font-family: "Montserrat";
+  color: #242424;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+  @media (max-width: 320px) {
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+  }
+}
